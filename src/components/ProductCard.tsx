@@ -3,7 +3,7 @@ import { ProductContext } from "../context/ProductContext";
 import { CartContext } from "../context/CartContext";
 import { CartProduct } from "../interfaces/CartProduct";
 
-function Products() {
+function ProductCard() {
   const productContext = useContext(ProductContext);
   const cartContext = useContext(CartContext);
 
@@ -97,4 +97,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default ProductCard;

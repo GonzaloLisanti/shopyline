@@ -1,13 +1,13 @@
 import FilterBar from "./FilterBar";
-import Products from "./Products";
+import ProductCard from "./ProductCard";
 
-function Home() {
+function Products() {
   return (
     <div className="mt-5 text-center">
        <FilterBar />
-      <Products/>
+      <ProductCard/>
     </div>
   );
 }
 
-export default Home;
+export default Products;
