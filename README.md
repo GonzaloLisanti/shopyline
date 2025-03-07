@@ -4,6 +4,8 @@ Shopyline es una tienda online de práctica desarrollada con **React** que consu
 
 🔹 **Este proyecto no incluye la funcionalidad de compra**, pero sí un carrito de compras donde se pueden agregar y visualizar productos.
 
+🔹 **Diseño 100% responsivo**, adaptado para desktop, tablet y dispositivos móviles con Bootstrap 5.
+
 ---
 
 ## 🚀 Tecnologías utilizadas
@@ -24,7 +26,7 @@ Shopyline es una tienda online de práctica desarrollada con **React** que consu
 
 1. **Clonar el repositorio:**
    ```sh
-   git clone https://github.com/tuusuario/shopyline.git
+   git clone https://github.com/GonzaloLisanti/shopyline.git
    cd shopyline
    ```
 
@@ -48,7 +50,7 @@ Shopyline es una tienda online de práctica desarrollada con **React** que consu
 ✅ **Listado de productos** obtenidos desde la API [FakeStoreAPI](https://fakestoreapi.com/).
 ✅ **Filtrado de productos** por precio y categoría con `useContext`.
 ✅ **Carrito de compras** sin funcionalidad de pago.
-✅ **Diseño responsivo** con Bootstrap 5.
+✅ **Diseño 100% responsivo** con Bootstrap 5.
 ✅ **Manejo de rutas** con `react-router-dom`.
 
 ---
@@ -59,9 +61,10 @@ shopyline/
 │── src/
 │   ├── components/    # Componentes reutilizables
 │   ├── context/       # Context API para el estado global
-│   ├── pages/         # Vistas principales (Home, ProductDetails, Cart)
 │   ├── hooks/         # Hooks personalizados
-│   ├── assets/        # Imágenes y estilos
+│   ├── interfaces/         # Interfaces utilizadas para los datos de la api
+│   ├── reducers/        # Funciones reductoras para la gestión del estado global
+|   ├── routers/        # Configuración y manejo de rutas con React Router
 │   ├── App.tsx        # Componente principal
 │   ├── main.tsx       # Punto de entrada del proyecto
 │── public/            # Archivos estáticos
@@ -79,5 +82,3 @@ Este proyecto tiene como propósito reforzar el conocimiento en:
 - **Modularización y reutilización de componentes**
 - **Manejo de estado global con Context API**
 - **Diseño responsivo con Bootstrap**
-
----
