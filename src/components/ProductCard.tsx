@@ -70,7 +70,7 @@ function ProductCard() {
                 style={{ backgroundColor: "#c9faff" }}
               >
                 <h5 className="card-title">{product.title}</h5>
-                <p className="card-text fw-bold">${product.price}</p>
+                <p className="card-text fs-5 fw-bold">${product.price}</p>
 
                 {/* Rating con Estrellas */}
                 <div className="d-flex justify-content-center align-items-center">

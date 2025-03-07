@@ -48,7 +48,7 @@ const FeaturedProducts: React.FC = () => {
       <h2 className="text-center display-5 mb-4">Productos Destacados</h2>
       <div className="row">
         {featuredProducts.map((product: Product) => (
-          <div className="col-md-3" key={product.id}>
+          <div className="col-md-3 mb-3" key={product.id}>
             <div className="card mb-4 shadow-sm h-100 d-flex flex-column">
               <img
                 src={product.image}
