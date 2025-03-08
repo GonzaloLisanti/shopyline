@@ -78,7 +78,7 @@ shopyline/
 ## 🎯 Objetivo del Proyecto
 Este proyecto tiene como propósito reforzar el conocimiento en:
 - **React y Hooks (useContext, useEffect, useState)**
-- **Consumo de APIs con Fetch o Axios**
+- **Consumo de APIs con Fetch**
 - **Modularización y reutilización de componentes**
 - **Manejo de estado global con Context API**
 - **Diseño responsivo con Bootstrap**
